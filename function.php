@@ -114,7 +114,8 @@
 	echo "他们的最小公倍数为：".getmin_multiple($c,$d);
 	
 	
-	
+	$array=array("size"=>"XL","color"=>"gold");
+	print_r(array_values($array));
 	
 	?>
 </body>
