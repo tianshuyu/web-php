@@ -15,7 +15,6 @@
 		{
         $this->type="BMW_X8";
         $this->color="black";
-			
     }
     
     public function __toString()
