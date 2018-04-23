@@ -8,6 +8,7 @@
 <body>
 	<p style="color: orangered">田书宇的作业</p>
 	<?php
+	
 	class car
 	{
 		private $type,$color;

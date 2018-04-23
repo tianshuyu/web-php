@@ -80,12 +80,12 @@
 	</span>
 	</form>
 <script>
-     var $button = document.querySelector("input[type=button]");
-    var $result = document.querySelector("#result");
-    var $all = document.querySelectorAll("input[type=text]");
-    var $plus = document.querySelector("#ysf").getElementsByTagName("option")[0];
+     var $button = document.querySelector("input[type=button]");//返回清空按钮
+    var $result = document.querySelector("#result");//返回结果
+    var $all = document.querySelectorAll("input[type=text]");//返回所有输入值
+    var $plus = document.querySelector("#ysf").getElementsByTagName("option")[0];//ysf并且按顺序返回
     $button.onclick = function () {
-        $result.innerHTML = "";
+        $result.innerHTML = "";//返回resul的表格行HTML
         for (var a in $all) {
             $all[a].value = "";
         }
